@@ -1,0 +1,74 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/kotlin"
+    android:padding="7dp">
+
+    <LinearLayout
+        android:layout_width="405dp"
+        android:layout_height="79dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="EcoCheck"
+            android:layout_marginTop="25dp"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/previousbutton"
+        android:layout_width="63dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/ic_back" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="402dp"
+        android:layout_height="500dp"
+        android:layout_marginTop="100dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/redirectButton"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:padding="50dp">
+
+        <TextView
+            android:id="@+id/question_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="-5dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="HELP"/>
+
+        <TextView
+            android:id="@+id/scoreee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Το σύστημα βαθμολόγησης μας δίνει τη δυνατότητα να κατανοήσουμε τις συνήθειες των χρηστών μας και να τους δώσουμε συμβουλές για να βελτιώσουν την καταναλωτική τους συμπεριφορά. Με τα badges που κερδίζουν, οι χρήστες μας μπορούν να δουν την πρόοδό τους και να αισθανθούν την ικανοποίηση της επίτευξης των στόχων τους για μια πιο φιλική προς το περιβάλλον ζωή. Το σύστημα αυτό του EcoCheck είναι αρκετά απλό. Κάθε φορά που απαντούν σε μια ερώτηση, θα λαμβάνουν έναν αριθμό πόντων, ανάλογα με το πόσο φιλική προς το περιβάλλον είναι η απάντησή τους. Οι βαθμολογίες κινούνται από 0 έως 300 πόντους για τους νεοεισερχόμενους, 300 έως 1.000 πόντους για τους αρχάριους, 1.000 έως 3.000 πόντους για τους μάστερ, 3.000 έως 10.000 πόντους για τους ήρωες τους πράσινου και 10.000 πόντους και πάνω για τους ακτιβιστής."
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</RelativeLayout>
