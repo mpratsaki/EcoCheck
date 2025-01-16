@@ -1,8 +1,8 @@
 ---
 
-# EcoChecked
+# EcoCheck
 
-EcoChecked is a university project aimed at promoting environmental awareness and sustainability. This app helps users track their ecological footprint and provides tips on how to reduce it.
+EcoCheck is a university project aimed at promoting environmental awareness and sustainability. This app helps users track their ecological footprint and provides tips on how to reduce it.
 
 ## Features
 
